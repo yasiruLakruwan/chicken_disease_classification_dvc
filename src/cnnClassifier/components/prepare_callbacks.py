@@ -9,8 +9,6 @@ class PrepareCallback:
     def __init__(self, config: PrepareCallbacksConfig):
         self.config = config
 
-
-    
     @property
     def _create_tb_callbacks(self):
         timestamp = time.strftime("%Y-%m-%d-%H-%M-%S")
